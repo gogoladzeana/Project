@@ -1,0 +1,2053 @@
+/* Header */
+
+.Header{
+    width: 100%;
+    
+}
+.Header-Content{
+    width: 1420px;
+    height: 68px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+.Logo{
+    width: 207px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    line-height: 1.2;
+}
+.Header-img{
+    height: 68px;
+    width: 61px;
+}
+.Company-Name{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;  
+    font-weight: 700;
+    color: #2B3252;
+}
+.Header-List{
+    cursor: pointer;
+    width: 548px;
+   font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px; 
+    align-items: center;
+}
+.Header-List a{
+    color: #2B3252;
+}
+.Header-List a:focus{
+    color: #EF5555;
+   
+}
+.input{
+    position: relative;
+}
+.Search-input{
+    width: 210px;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+
+   
+}
+.input-icon{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.openMenu{
+    margin: 20px;
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
+.closeMenu{
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+/* Section one */
+
+.Rectangle{
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+.Regtanle-box{
+    width: 1700px;
+    height: 770px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.Rectangle-img{
+    position: absolute;
+    top: 145px;
+    margin-top: 50px;
+}
+.blue-box{
+    width: 1680px;
+    height: 770px;
+    margin: 0 auto;
+    background-color: #2B3252;
+    position: relative;
+}
+.red-box{
+    position: absolute;
+    top: 195px;
+}
+.section-text{
+    width: 740px;
+    position: absolute;
+    top: 500px;
+    left: 250px;
+}
+
+.Company-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62px;
+    font-weight: 700;
+    color:#FFFFFF;
+    text-transform: uppercase;
+    width: 736px;
+    height: 150px;
+}
+.Section-Text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color:#FFFFFF;
+    width: 736px;
+    height: 150px;
+    line-height: 1.5;
+}
+.section-text a{
+    color: #FFFFFF;
+    width: 130px;
+    background-color: #dbcfcf;
+}
+
+/* services */  
+
+
+.Services{
+    width: 100%;
+    margin-top: 100px;
+}
+.services-content{
+    width: 1420px;
+    margin: 0 auto;
+    
+}
+.Services-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.Services-Names{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+}
+.Services-block{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.Service-block{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 5rem;
+}
+.Service-block:hover{
+   transform: scale(1.3);
+   cursor: pointer;
+}
+.btn:hover{
+    box-shadow: inset 300px 0 0 0 rgb(215, 189, 189);
+    color: black;
+    
+}
+
+/* news */
+
+.News-slider{
+    margin: 0 auto;
+    margin-top: 200px;
+    position: relative;
+    width: 1450px;
+   
+    padding: 2px;
+    overflow: hidden;
+}
+.News-Content{
+    width: 1420px;
+    
+}
+
+.slider {
+    width: 100%;
+    max-width: 440px;
+    height: 560px;
+    position: relative;
+    display: flex;
+  
+  }
+  
+  .slide {
+    
+    height: 550px;
+    position: absolute;
+    transition: all 0.5s;
+  }
+  
+  .slide img{
+    max-width: 440px;
+    height: 560px;
+    padding-right: 45px;
+    position: relative;
+  }
+
+
+
+.News{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.News-Title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.pre-btn,
+.nxt-btn{
+    border: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+.img-text{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    line-height: 1.2;
+    gap: 2rem;
+    color: #FFFFFF;
+}
+.Product-Title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    color: #FFFFFF;
+   
+   
+}
+.red-rectangle{
+    position: absolute;
+    bottom: 564px;
+}
+
+.Procuct-time{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.Product-Button{
+    position: relative;
+}
+
+.btn{
+    width: 130px;
+    height: 42px;
+    border: 1px solid #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    background:none;
+    color: #FFFFFF;
+    border-radius: 8px;
+    text-align:start;
+    cursor: pointer;
+    transition: ease-out 0.3s;
+}
+.btn img{
+    position: absolute;
+    top: 12px;
+    left: 100px;
+}
+
+
+
+
+
+
+/* About Company */
+
+
+
+.About-Company{
+    width: 100%;
+    margin-top: 200px;
+    
+}
+.About-Company-Content{
+    width: 1420px;
+    margin: 0 auto;
+    display: flex;
+    gap: 6rem;
+}
+.About-Company-img2{
+    position: relative;
+}
+.About-Company-img{
+    position: absolute;
+    left: 230px;
+    top: 2470px;
+}
+
+.About-text-block{
+    margin-top: 50px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap:4rem;
+    line-height: 1.5;
+    
+}
+.About-Company-Title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+.About-Company-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #2B3252;
+}
+.Button{
+    width: 140px;
+    height: 45px;
+   border-color:#EF5555;
+   border-radius: 10px;
+   cursor: pointer;
+   position: relative;
+   text-align:left;
+}
+.About-Company-Button{
+   
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+   color: #EF5555;
+   margin-right:  5px;
+  
+}
+.Vector{
+    position: absolute;
+    right: 15px;
+    top: 14px;
+}
+ 
+/* Footer */
+
+.footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 330px;
+    background-color: #2B3252;
+}
+.footer-content{
+    width: 1420px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.footer-logo{
+    margin-top: 30px;
+    width: 207px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    line-height: 1.2;
+}
+
+.footer-Company-Name{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;  
+    font-weight: 700;
+    color: #FFFFFF;
+}
+footer p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;  
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.footer-list{
+    cursor: pointer;
+    width: 440px;
+   font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px; 
+    align-items: center;
+}
+.footer-list a{
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.inputs{
+    width: 500px;
+}
+.Name-input{
+    width: 230px;
+    height: 42px;
+    background-color: #2B3252;
+    border-radius: 10px;
+    border: 0.5px solid;
+    border-color: #FFFFFF;
+   margin-left: 2px;
+   margin-bottom: 15px;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 14px; 
+   font-weight: 400;
+}
+.text-input{
+    width: 480px;
+    height: 120px;
+    background-color: #2B3252;
+    border-radius: 10px;
+    border: 0.5px solid;
+    border-color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+   font-size: 15px; 
+   font-weight: 400;
+   position: relative;
+}
+.Send-Button{
+    width: 70px;
+    height:40px;
+    border-radius: 10px;
+    background-color: #EF5555;
+    color: #FFFFFF;
+    text-align: center;
+    border-color:#EF5555;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; 
+    font-weight: 700;
+    position: absolute;
+    top: 3450px;
+    right: 270px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:1720px){
+    .Header{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .Header-Content{
+        max-width: 1200px;
+    }
+    .Rectangle{
+        width: 100%;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    .Rectangle-img{
+        width: 100%;
+        max-width: 1500px;
+        margin: 0 auto;
+        position:absolute;
+        top: 145px;
+        margin-top: 50px;
+    }
+    .Regtanle-box{
+        width: 100%;
+        max-width: 1500px;
+    }
+    .blue-box{
+      
+       max-width: 1450px;
+       height: 500px;
+       position: relative;
+      top: 180px;
+       left: 20px;
+      
+    }
+    .red-box{
+        width: 100%;
+        max-width: 1500px;
+        margin: 0 auto;
+        bottom: 20px;
+    }
+    .section-text {
+        width: 500px;
+        position: absolute;
+        top: 450px;
+        left: 200px;
+    }
+    .Services{
+        width: 100%;
+        margin: 0 auto;
+
+    }
+    .services-content{
+        max-width: 1200px;
+    }
+    .News-slider{
+        width: 100%;
+        max-width: 1200px;
+    }
+    .News-Content{
+        max-width: 1200px;
+    }
+    .About-Company{
+        width: 100%;
+        margin-top: 200px;
+        
+    }
+    .About-Company-Content{
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        gap: 6rem;
+    }
+    .About-Company-img2{
+        position: relative;
+    }
+    .About-Company-img{
+        position: absolute;
+        left: 205px;
+        top: 2370px;
+    }
+    .footer{
+        margin-top: 100px;
+        width: 100%;
+        height: 330px;
+        background-color: #2B3252;
+    }
+    .footer-content{
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 100px;
+    }
+    .text-input{
+       position: relative;
+    }
+    .Send-Button{
+        position: absolute;
+        top: 3350px;
+        right: 250px;
+        
+    }
+}
+
+
+
+
+
+@media (max-width:1600px){
+    .Header{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .Header-Content{
+        max-width: 1200px;
+    }
+    .Rectangle{
+        width: 100%;
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+    .Rectangle-img{
+        width: 100%;
+        max-width: 1500px;
+        margin: 0 auto;
+        position:absolute;
+        top: 145px;
+        margin-top: 50px;
+    }
+    .Regtanle-box{
+        width: 100%;
+        max-width: 1500px;
+    }
+    .blue-box{
+      
+       max-width: 1450px;
+       height: 500px;
+       position: relative;
+      top: 150px;
+       left: 20px;
+      
+    }
+    .red-box{
+        width: 100%;
+        max-width: 1500px;
+        margin: 0 auto;
+        bottom: 20px;
+    }
+    .section-text {
+        width: 500px;
+        position: absolute;
+        top: 450px;
+        left: 150px;
+    }
+    .About-Company{
+        width: 100%;
+        margin-top: 200px;
+        
+    }
+    .About-Company-Content{
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        gap: 6rem;
+    }
+    .About-Company-img2{
+        position: relative;
+    }
+    .About-Company-img{
+        position: absolute;
+        left: 160px;
+        top: 2370px;
+    }
+    .text-input{
+        position: relative;
+     }
+     .Send-Button{
+         position: absolute;
+         top: 3350px;
+         right: 220px;
+         
+     }
+}
+
+
+
+@media (max-width:1525px){
+    .Header{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .Header-Content{
+        max-width: 1200px;
+    }
+    .Rectangle{
+        width: 100%;
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+    .Rectangle-img{
+        width: 100%;
+        max-width: 1300px;
+        margin: 0 auto;
+        position:absolute;
+        top: 145px;
+        margin-top: 50px;
+    }
+    .Regtanle-box{
+        width: 100%;
+        max-width: 1300px;
+    }
+    .blue-box{
+      
+       max-width: 1250px;
+       height: 500px;
+       position: relative;
+      top: 90px;
+     left: 2px;
+      margin: 0 auto;
+      
+    }
+    .red-box{
+        width: 100%;
+        max-width: 1300px;
+        margin: 0 auto;
+        bottom: 20px;
+    }
+    .section-text{
+        width: 600px;
+        position: absolute;
+        top: 400px;
+        left: 200px;
+    }
+  
+    .About-Company{
+        width: 100%;
+        margin-top: 200px;
+        
+    }
+    .About-Company-Content{
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        gap: 6rem;
+    }
+    .About-Company-img2{
+        position: relative;
+    }
+    .About-Company-img{
+        position: absolute;
+        left: 130px;
+        top: 2370px;
+    }
+    .text-input{
+        position: relative;
+     }
+     .Send-Button{
+         position: absolute;
+         top: 3350px;
+         right: 190px;
+         
+     }
+}
+
+
+
+  
+@media (max-width:1400px){
+    .Header{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .Header-Content{
+        max-width: 1000px;
+    }
+    .Rectangle{
+        width: 100%;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+    .Rectangle-img{
+        width: 100%;
+        max-width: 1100px;
+        margin: 0 auto;
+        position:absolute;
+        top: 145px;
+        margin-top: 50px;
+    }
+    .Regtanle-box{
+        width: 100%;
+        max-width: 1100px;
+    }
+    .blue-box{
+      
+       max-width: 1050px;
+       height: 500px;
+       position: relative;
+      top: 5px;
+     left: 2px;
+      margin: 0 auto;
+      
+    }
+    .red-box{
+        width: 100%;
+        max-width: 1100px;
+        margin: 0 auto;
+        bottom: 20px;
+    }
+    .section-text {
+        width: 500px;
+        position: absolute;
+        top: 300px;
+        left: 200px;
+    }
+    .section-text p{
+        width: 450px;
+    }
+    .section-text h1{
+        width: 450px;
+        font-size: 40px;
+    }
+    .About-Company{
+        width: 100%;
+        margin-top: 200px;
+        
+    }
+    .About-Company-Content{
+        width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        gap: 3rem;
+    }
+    .About-Company-img2{
+        position: relative;
+    }
+    .About-Company-img{
+        position: absolute;
+        left: 100px;
+        top: 2370px;
+    } 
+    .text-input{
+        position: relative;
+     }
+     .Send-Button{
+         position: absolute;
+         top: 3350px;
+         right: 130px;
+         
+     }
+}
+
+
+
+@media (max-width:1270px){
+   
+    
+    .About-Company{
+        width: 100%;
+        margin-top: 200px;
+        
+    }
+    .About-Company-Content{
+        width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        gap: 3rem;
+    }
+    .About-Company-img2{
+        position: relative;
+    }
+    .About-Company-img{
+        position: absolute;
+        left: 40px;
+        top: 2370px;
+    } 
+    .text-input{
+        position: relative;
+     }
+     .Send-Button{
+         position: absolute;
+         top: 3350px;
+         right: 80px;
+         
+     }
+}
+
+
+
+@media (max-width:1235px){
+    .Header{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .Header-Content{
+        max-width:950px;
+    }
+    .Header-List{
+        width: 420px;
+    }
+    .Rectangle{
+        width: 100%;
+        max-width: 950px;
+        margin: 0 auto;
+    }
+    .Rectangle-img{
+        width: 100%;
+        max-width: 950px;
+        margin: 0 auto;
+        position:absolute;
+        top: 145px;
+        margin-top: 50px;
+    }
+    .Regtanle-box{
+        width: 100%;
+        max-width: 950px;
+    }
+    .blue-box{
+      
+       max-width: 900px;
+       height: 200px;
+       position: relative;
+      top:230px;
+     left: 2px;
+      margin: 0 auto;
+      
+    }
+    .red-box{
+        width: 100%;
+        max-width: 950px;
+        margin: 0 auto;
+        bottom: 20px;
+    }
+    .section-text {
+        width: 500px;
+        position: absolute;
+        top: 250px;
+        left: 150px;
+    }
+    .section-text p{
+        width: 450px;
+    }
+    .section-text h1{
+        width: 450px;
+        font-size: 40px;
+    }
+    .Services{
+        width: 100%;
+        margin: 0 auto;
+
+    }
+    .services-content{
+        max-width: 950px;
+    }
+    .News-slider{
+        width: 100%;
+        max-width: 950px;
+    }
+    .News-Content{
+        max-width: 950px;
+    }
+    .About-Company{
+        width: 100%;
+        margin-top: 200px;
+        
+    }
+    .About-Company-Content{
+        width:950px;
+        margin: 0 auto;
+        display: flex;
+        gap: 6rem;
+    }
+    .About-Company-img2{
+        position: relative;
+    }
+    .About-Company-img{
+        position: absolute;
+        left: 130px;
+        top: 2370px;
+    } 
+    .About-text-block p{
+        width: 370px;
+        margin-top: -50px;
+    }
+    .footer{
+        margin-top: 100px;
+        width: 100%;
+        height: 330px;
+        background-color: #2B3252;
+    }
+    .footer-content{
+        width: 950px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 100px;
+    }
+    .inputs  textarea {
+        width: 350px;
+        margin-left: 80px;
+    }
+    .inputs   input{
+        width: 350px;
+        margin-left: 80px;
+    }
+    .footer-logo{
+        margin-right: 50px;
+    }
+    .footer-list{
+        width: 350px;
+    }
+    .text-input{
+        position: relative;
+     }
+     .Send-Button{
+         position: absolute;
+         top: 3420px;
+         right: 65px;
+         
+     }
+}
+@media(max-width:1170px){
+    .About-Company{
+        width: 100%;
+        margin-top: 200px;
+        
+    }
+    .About-Company-Content{
+        width:950px;
+        margin: 0 auto;
+        display: flex;
+        gap: 3rem;
+    }
+    .About-Company-img2{
+        position: relative;
+    }
+    .About-Company-img{
+        position: absolute;
+        left: 70px;
+        top: 2370px;
+    } 
+    .About-text-block p{
+        width: 370px;
+        margin-top: -50px;
+    }
+    .footer{
+        margin-top: 100px;
+        width: 100%;
+        height: 330px;
+        background-color: #2B3252;
+    }
+    .footer-content{
+        width: 950px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 100px;
+    }
+    .inputs  textarea {
+        width: 300px;
+        margin-left: 80px;
+    }
+    .inputs   input{
+        width: 300px;
+        margin-left: 80px;
+    }
+    .footer-logo{
+        margin-right: 50px;
+    }
+    .footer-list{
+        width: 350px;
+    }
+    .text-input{
+        position: relative;
+     }
+     .Send-Button{
+         position: absolute;
+         top: 3420px;
+         right: 65px;
+         
+     }
+}
+
+@media (max-width:1070px){
+    .About-Company{
+        width: 100%;
+        margin-top: 200px;
+        
+    }
+    .About-Company-Content{
+        width:950px;
+        margin: 0 auto;
+        display: flex;
+        gap: 2.5rem;
+    }
+    .About-Company-img2{
+        position: relative;
+    }
+    .About-Company-img{
+        position: absolute;
+        left: 40px;
+        top: 2370px;
+    } 
+    .About-text-block p{
+        width: 370px;
+        margin-top: -50px;
+    }
+    .footer{
+        margin-top: 100px;
+        width: 100%;
+        height: 330px;
+        background-color: #2B3252;
+    }
+    .footer-content{
+        width: 950px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 100px;
+    }
+    .inputs  textarea {
+        width: 300px;
+        margin-left: 80px;
+    }
+    .inputs  input{
+        width: 300px;
+        margin-left: 80px;
+    }
+    .footer-logo{
+        margin-right: 50px;
+    }
+    .footer-list{
+        width: 350px;
+    }
+    .text-input{
+        position: relative;
+     }
+     .Send-Button{
+         position: absolute;
+         top: 3420px;
+         right: 65px;
+         
+     }
+}
+
+@media (max-width:1030px){
+    .About-Company{
+        width: 100%;
+        margin-top: 200px;
+        
+    }
+    .About-Company-Content{
+        width:950px;
+        margin: 0 auto;
+        display: flex;
+        gap: 2.5rem;
+    }
+    .About-Company-img2{
+        position: relative;
+    }
+    .About-Company-img{
+        position: absolute;
+        left: 10px;
+        top: 2370px;
+    } 
+    .About-text-block h2{
+        font-size: 28px;
+    }
+    .About-text-block p{
+        width: 340px;
+        margin-top: -50px;
+    }
+    .footer{
+        margin-top: 100px;
+        width: 100%;
+        height: 330px;
+        background-color: #2B3252;
+    }
+    .footer-content{
+        width: 950px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 100px;
+    }
+    .inputs  textarea {
+        width: 280px;
+        margin-left: 80px;
+    }
+    .inputs  input{
+        width: 280px;
+        margin-left: 80px;
+    }
+    .footer-logo{
+        margin-right: 50px;
+    }
+    .footer-list{
+        width: 350px;
+    }
+    .text-input{
+        position: relative;
+     }
+     .Send-Button{
+         position: absolute;
+         top: 3420px;
+         right: 35px;
+         
+     }
+}
+
+
+@media (max-width:970px){
+    .Header{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .Header-Content{
+        max-width:650px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Header-List{
+        width: 420px;
+        font-size: 16px;
+    }
+    .input{
+       margin-left: 240px;
+      
+    }
+    .Logo{
+        padding-top: 20px;
+    }
+    .Logo img{
+        width: 40px;
+        height: 50px;
+    }
+    .Logo span{
+        font-size: 18px;
+    }
+    .input input{
+        width: 400px;
+    }
+    .Rectangle{
+        width: 100%;
+        max-width: 650px;
+        height: 400px;
+        margin: 0 auto;
+    }
+    .Rectangle-img{
+        width: 100%;
+        max-width: 650px;
+        margin: 0 auto;
+        position:absolute;
+        top: 145px;
+        margin-top: 50px;
+    }
+    .Regtanle-box{
+        width: 100%;
+        max-width: 650px;
+    }
+    .blue-box{
+      
+       max-width: 600px;
+       height: 200px;
+       position: relative;
+      top:90px;
+     left: 2px;
+      margin: 0 auto;
+      
+    }
+    .red-box{
+        width: 100%;
+        max-width: 650px;
+        margin: 0 auto;
+        bottom: 20px;
+    }
+    .section-text{
+        width: 300px;
+        position: absolute;
+        top: 250px;
+        left: 150px;
+    
+    }
+    .section-text p{
+        width: 400px;
+        height: 120px;
+        
+    }
+    .section-text h1{
+        width: 350px;
+        height: 70px;
+        font-size: 28px;
+        
+    }
+    .btn{
+        margin-top: 10px;
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .btn img{
+        position: absolute;
+       top: 17px;
+        left: 80px;
+    }
+    .Services{
+        width: 100%;
+        margin-top: 20px;
+        margin: 0 auto;
+    }
+    .services-content{
+        max-width: 650px;
+        margin: 0 auto;
+    }
+    .services-content h2{
+        font-size: 28px;
+    }
+    .services-content span{
+        font-size: 20px;
+    }
+    .News-slider{
+        width: 100%;
+        max-width: 650px;
+    }
+    .News-Content{
+        max-width: 650px;
+    }
+    
+    .slider {
+        width: 100%;
+        max-width: 400px;
+        height: 400px;
+        position: relative;
+        display: flex;
+      
+      }
+      
+      .slide {
+        
+        height: 400px;
+        position: absolute;
+        transition: all 0.5s;
+      }
+      
+      .slide img{
+        max-width: 400px;
+        height: 400px;
+        padding-right: 10px;
+        position: relative;
+      }
+      .Product-Button img{
+        position: absolute;
+        right: 20px;
+      }
+      .img-text{
+        width: 270px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        line-height: 1.2;
+        gap: 2rem;
+        color: #FFFFFF;
+    }
+    .red-rectangle{
+        position: absolute;
+        bottom: 405px;
+    }
+    
+    
+    
+    .News{
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .News-Title{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .About-Company{
+        width: 100%;
+        margin-top: 150px;
+        
+    }
+    .About-Company-Content{
+        width:650px;
+        margin: 0 auto;
+        display: flex;
+        gap: 3rem;
+    }
+    .About-Company-img2{
+        margin-top: 100px;
+        position: relative;
+        width: 330px;
+        height: 450px;
+    }
+    .About-Company-img{
+        width: 340px;
+        height: 470px;
+        position: absolute;
+        left: 110px;
+        top: 1830px;
+    } 
+    .About-text-block p{
+        width: 300px;
+        margin-top: -50px;
+        font-size: 16px;
+    }
+    .Button{
+        position: relative;
+        font-size: 13px;
+        height: 40px;
+        
+    }
+    .Vector{
+      position: absolute;
+      top: 10px;
+    }
+    .footer{
+        margin-top: 100px;
+        width: 100%;
+        height: 330px;
+        background-color: #2B3252;
+    }
+    .footer-content{
+        width: 650px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 20px;
+    }
+   
+    .inputs  textarea {
+        width: 350px;
+        height: auto;
+        margin-left: 300px;
+    }
+    .inputs   input{
+        margin-top: 2px;
+        width: 350px;
+        margin-left:300px;
+    }
+    
+    .footer-Company-Name{
+        font-size: 40px;
+        margin-top: 140px;
+    }
+   
+    .footer-logo img{
+        margin-top: 140px;
+        width: 80px;
+        height: 100px;
+    }
+    .footer-list{
+        width: 350px;
+        font-size: 16px;
+    }
+    .text-input{
+        position: relative;
+     }
+     .Send-Button{
+        width: 50px;
+        height: 30px;
+        font-size: 14px;
+         position: absolute;
+         top: 2700px;
+         right: 145px;
+         
+     }
+}
+
+
+@media(max-width:840px){
+    .section-text{
+        width: 300px;
+        position: absolute;
+        top: 250px;
+        left: 90px;
+    
+    }
+    .About-Company-img2{
+        margin-top: 100px;
+        position: relative;
+        width: 330px;
+        height: 450px;
+    }
+    .About-Company-img{
+        width: 340px;
+        height: 470px;
+        position: absolute;
+        left: 70px;
+        top: 1830px;
+    } 
+    .About-text-block p{
+        width: 300px;
+        margin-top: -50px;
+        font-size: 16px;
+    }
+    .Send-Button{
+        width: 50px;
+        height: 30px;
+        font-size: 14px;
+         position: absolute;
+         top: 2700px;
+         right: 105px;
+         
+     }
+     .footer-Company-Name{
+        font-size: 28px;
+        margin-top: 20px;
+    }
+   
+    .footer-logo img{
+        margin-top: 20px;
+        width: 40px;
+        height: 60px;
+    }
+    .inputs  textarea {
+        width: 600px;
+        height: auto;
+        margin-left: 1px;
+        
+    }
+    .inputs   input{
+        margin-top: 2px;
+        width: 600px;
+        margin-left: 1px;
+    }
+    .footer-list{
+        width: 300px;
+        margin-right: 60px;
+    }
+}
+
+@media(max-width:760px){
+    .section-text{
+        width: 300px;
+        position: absolute;
+        top: 250px;
+        left: 80px;
+    
+    }
+    .About-Company-img2{
+        margin-top: 100px;
+        position: relative;
+        width: 330px;
+        height: 450px;
+    }
+    .About-Company-img{
+        width: 340px;
+        height: 470px;
+        position: absolute;
+        left: 40px;
+        top: 1830px;
+    } 
+    .About-text-block p{
+        width: 300px;
+        margin-top: -50px;
+        font-size: 15px;
+    }
+    .Send-Button{
+        width: 50px;
+        height: 30px;
+        font-size: 14px;
+         position: absolute;
+         top: 2700px;
+         right: 85px;
+         
+     }
+}
+
+    @media (max-width:725px){
+        .Header{
+            width: 100%;
+            margin: 0 auto;
+        }
+        .Header-Content{
+            max-width: 450px;
+            display: flex;
+          
+    
+        }
+        .Header-List{
+            margin-top: -50px;
+            margin-left: 175px;
+            
+            width: 350px;
+            font-size: 13px;
+        }
+        .input{
+           display: none;
+            
+            
+        }
+        .Rectangle{
+            width: 100%;
+            max-width: 450px;
+            margin: 0 auto;
+        }
+        .Rectangle-img{
+            width: 100%;
+            max-width: 450px;
+            margin: 0 auto;
+            position:absolute;
+            top: 145px;
+            margin-top: 50px;
+        }
+        .Regtanle-box{
+            width: 100%;
+            max-width: 450px;
+        }
+        .blue-box{
+          
+           max-width: 400px;
+           height: 100px;
+           position: relative;
+          top: 100px;
+         left: 2px;
+         
+          margin: 0 auto;
+          
+        }
+        .red-box{
+            width: 100%;
+            max-width: 450px;
+            margin: 0 auto;
+            bottom: 20px;
+        }
+        .section-text{
+            width: 300px;
+            position: absolute;
+            top: 230px;
+            left: 150px;
+        
+        }
+        .section-text p{
+            width: 400px;
+            height: 70px;
+            font-size: 13px;
+            
+        }
+        .section-text h1{
+           
+            width: 200px;
+            height: 40px;
+            font-size: 18px;
+            
+        }
+        .Services{
+            width: 100%;
+            margin: 0 auto;
+    
+        }
+        .services-content{
+            max-width: 450px;
+            
+        }
+        .Service-block span{
+          font-size: 14px;
+        }
+        .News-slider{
+            width: 100%;
+            max-width: 450px;
+        }
+        .News-Content{
+            max-width: 450px;
+        }
+        .About-Company{
+            width: 100%;
+            margin-top: 200px;
+            
+        }
+        .About-Company-Content{
+            max-width:450px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 3rem;
+        }
+        .About-Company-img2{
+            position: relative;
+            width: 440px;
+        }
+        .About-Company-img{
+            width: 450px;
+            position: absolute;
+            left: 130px;
+            top: 1870px;
+        } 
+        .About-text-block{
+            width: 450px;
+        }
+        .About-text-block p{
+            width: 450px;
+            font-size: 18px;
+           
+        }
+        .text-input{
+            position: relative;
+         }
+         .Send-Button{
+             position: absolute;
+             top: 3280px;
+             right: 100px;
+             
+         }
+    }
+    @media(max-width:675px){
+        .section-text{
+            width: 300px;
+            position: absolute;
+            top: 230px;
+            left: 100px;
+        
+        }
+        .About-Company-img{
+            width: 450px;
+            position: absolute;
+            left: 90px;
+            top: 1870px;
+        } 
+        .footer{
+            height: 200px;
+        }
+        .footer-content{
+            width: 450px;
+            height: 200px;
+            flex-wrap: nowrap;
+        }
+        .footer-Company-Name{
+            font-size: 18px;
+        }
+        .footer-list{
+            font-size: 13px;
+            width: 270px;
+        }
+        .inputs{
+          display: none;
+        }
+    }
+    
+    @media(max-width:625px){
+        .section-text{
+            width: 300px;
+            position: absolute;
+            top: 230px;
+            left: 100px;
+        
+        }
+        .About-Company-img{
+            width: 450px;
+            position: absolute;
+            left: 65px;
+            top: 1870px;
+        } 
+        .footer-list{
+            font-size: 13px;
+            width: 230px;
+        }
+        
+    }
+    @media(max-width:560px){
+        .section-text{
+            width: 300px;
+            position: absolute;
+            top: 230px;
+            left: 70px;
+        
+        }
+        .About-Company-img{
+            width: 450px;
+            position: absolute;
+            left: 35px;
+            top: 1870px;
+        } 
+       
+        
+    }
+    @media(max-width:545px){
+        .section-text{
+            width: 300px;
+            position: absolute;
+            top: 230px;
+            left: 70px;
+        
+        }
+        .About-Company-img{
+            width: 450px;
+            position: absolute;
+            left: 35px;
+            top: 1870px;
+        } 
+        .footer-logo{
+            margin-top: 40px;
+        }
+       
+        .footer-list{
+            margin-right: 100px;
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 14px;
+           width: auto;
+        }
+        .icons{
+            display: none;
+        }
+        
+    }
+    
+    @media(max-width:503px){
+        .section-text{
+            width: 300px;
+            position: absolute;
+            top: 230px;
+            left: 40px;
+        
+        }
+        .About-Company-img{
+            width: 450px;
+            position: absolute;
+            left: 10px;
+            top: 1870px;
+        } 
+    }
+ @media(max-width:477px){
+
+        .Header{
+            width: 100%;
+            margin: 0 auto;
+        }
+        .Header-Content{
+            max-width: 330px;
+            display: flex;
+    
+        }
+        .Logo{
+           display: none;
+        }
+       .Logo span{
+        display: none;
+       }
+        .Header-List{
+            
+            margin-left: 0px;
+            flex-wrap: nowrap;
+            width:auto;
+            font-size: 12px;
+            gap: 1rem;
+        }
+        
+     
+        .Rectangle{
+            width: 100%;
+            max-width: 330px;
+            margin: 0 auto;
+            margin-top: -170px;
+        }
+        .Rectangle-img{
+            width: 100%;
+            max-width: 330px;
+            margin: 0 auto;
+            position:absolute;
+            top: 20px;
+            margin-top: 50px;
+        }
+        .Regtanle-box{
+            width: 100%;
+            max-width: 330px;
+        }
+        .blue-box{
+          
+           max-width: 300px;
+           height: 100px;
+           position: relative;
+          top: 90px;
+         left: 2px;
+         
+          margin: 0 auto;
+          
+        }
+        .red-box{
+            width: 100%;
+            max-width: 330px;
+            margin: 0 auto;
+            top: 69px;
+        }
+        .section-text{
+            width: 260px;
+            position: absolute;
+            top: 90px;
+            left: 65px;
+        
+        }
+        .Section-Text{
+            display: none;
+        }
+        .Services{
+            width: 100%;
+            margin: 0 auto;
+    
+        }
+        .services-content{
+            max-width: 330px;
+            height: 200px;
+            margin-top: -150px;
+            
+        }
+        .Service-block{
+            height: 100px;
+        }
+        .Service-block span{
+          font-size: 14px;
+        }
+        .Service-block img{
+            width: 50px;
+        }
+        .News-slider{
+            width: 100%;
+            max-width: 330px;
+        }
+        .News-Content{
+            max-width: 330px;
+        }
+        .About-Company{
+            width: 100%;
+            margin-top: -20px;
+            
+        }
+        .About-Company-Content{
+            max-width:330px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 3rem;
+        }
+        .About-Company-img2{
+            position: relative;
+            width: 320px;
+        }
+        .About-Company-img{
+            width: 330px;
+            position: absolute;
+            left: 50px;
+            top: 1220px;
+        } 
+        .About-text-block{
+            width: 330px;
+        }
+        .About-text-block p{
+            width: 330px;
+            font-size: 18px;
+           
+        }
+        .footer-content{
+            max-width: 330px;
+        }
+        .footer-logo{
+            margin-top: 40px;
+        }
+       
+        .footer-list{
+           display: none;
+        }
+        .inputs {
+            display: block;
+        }
+        .Send-Button{
+            width: 50px;
+            height: 30px;
+            font-size: 14px;
+             position: absolute;
+             top: 2600px;
+             right: 65px;
+             
+         }
+         .inputs  textarea {
+            width: 120px;
+            height: auto;
+            margin-left: 1px;
+            
+        }
+        .inputs   input{
+            margin-top: 2px;
+            width: 120px;
+            margin-left: 1px;
+        }
+       .Send-Button{
+        width: 40px;
+        height: 25px;
+        font-size: 10px;
+       }
+    }
+    @media(max-width:400px){
+        .About-Company-img{
+            width: 330px;
+            position: absolute;
+            left: 15px;
+            top: 1220px;
+        } 
+        .Send-Button{
+            width: 40px;
+            height: 25px;
+            font-size: 10px;
+             position: absolute;
+             top: 2600px;
+             right: 35px;
+             
+         }
+    }
+    @media(max-width:420px){
+        
+        .Send-Button{
+            width: 40px;
+            height: 25px;
+            font-size: 10px;
+             position: absolute;
+             top: 2600px;
+             right: 40px;
+             
+         }
+    }
+    @media(max-width:375px){
+      
+        .Send-Button{
+            width: 40px;
+            height: 25px;
+            font-size: 10px;
+             position: absolute;
+             top: 2600px;
+             right: 30px;
+             
+         }
+    }
+    @media(max-width:362px){
+        .About-Company-img2{
+            width: 300px;
+        }
+        .About-Company-img{
+            width: 305px;
+            position: absolute;
+            left: 5px;
+            top: 1220px;
+        } 
+        .Send-Button{
+            width: 40px;
+            height: 25px;
+            font-size: 10px;
+             position: absolute;
+             top: 2600px;
+             right: 35px;
+             
+         }
+    }
+   
+    @media(max-width:332px){
+      
+        .Send-Button{
+            width: 40px;
+            height: 25px;
+            font-size: 10px;
+             position: absolute;
+             top: 2600px;
+             right: 20px;
+             
+         }
+    }
